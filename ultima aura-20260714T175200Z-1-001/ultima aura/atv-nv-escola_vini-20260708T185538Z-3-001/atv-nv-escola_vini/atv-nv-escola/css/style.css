@@ -281,14 +281,6 @@
     height: clamp(100px, 20vw , 300px);
   }
 
-  .imagens ul li {
-    transition: all 0.3s ease !important;
-  }
-
-.imagens ul li:hover {
-  transform: scale(1.1) translateX(0) !important;
-  transition: all 0.3s ease !important;/* Garante que o scale funcione sobrepondo o estado final da animação */
-}
 
   .newsletter h4 {
     text-align: center;
@@ -313,3 +305,7 @@
     transform: scale(1.3);
     transition: all 0.3s ease;
   }}
+
+  footer ul li{
+    transition: all 0.3s ease ;
+  }
